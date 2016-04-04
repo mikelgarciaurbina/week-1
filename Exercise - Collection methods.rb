@@ -22,12 +22,6 @@ homes = [
   Home.new("Manu's place", "Madrid", 1, 35)
 ]
 
-#cities = homes.map do |home|
-#  home.price
-#end
-
-#puts cities.reduce{|sum, pri| sum + pri}.to_f / cities.size
-
 def print_menu
 	puts "---------- MENU ----------"
 	puts "1.- Order by price ascende"
